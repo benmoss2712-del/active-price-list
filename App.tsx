@@ -1,7 +1,9 @@
 import { useCallback, useMemo, useState } from "react";
 import {
   FlatList,
+  Platform,
   RefreshControl,
+  StatusBar as RNStatusBar,
   StyleSheet,
   Text,
   TextInput,
@@ -9,10 +11,6 @@ import {
   View,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import {
-  Platform,
-  StatusBar as RNStatusBar,
-} from "react-native";
 import {
   ACTIVE_PRICES,
   PRICE_LIST_VERSION,
