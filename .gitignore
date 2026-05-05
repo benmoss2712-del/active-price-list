@@ -33,6 +33,11 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Confidential business data — keep on developer machines only.
+# Recreate with `cp src/data/customers.ts src/data/customers.local.ts`
+# and paste in your customer list when you want local autocomplete back.
+src/data/customers.local.ts
+
 # typescript
 *.tsbuildinfo
 
